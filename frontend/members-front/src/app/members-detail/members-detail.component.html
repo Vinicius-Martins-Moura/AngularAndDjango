@@ -1,0 +1,17 @@
+<h3>members-detail works!</h3>
+
+<span>Você esta editando</span> : {{ selected_member.name }} {{selected_member.surname}}
+
+<!-- <p> selected_id = {{ selected_id }} </p> -->
+<span class="image left">
+    <img src= "{{ selected_member.photo }}" alt="  foto de  {{ selected_member.name }} ">
+</span>
+
+<input type="text" [(ngModel)]="selected_id" readonly> <br>
+<input type="text" [(ngModel)]="selected_member.name"><br>
+<input type="text" [(ngModel)]="selected_member.surname"><br>
+<input type="text" [(ngModel)]="selected_member.phone"><br>
+<button (click)="update()"> Update Member </button>
+<button (click)="delete()"> Deletar Member </button>
+
+<button (click)="newMember()" class="primary"> Novo </button>

@@ -1,0 +1,55 @@
+python -m venv venv
+cd venv - cd scripts - . activate
+cd..
+pip install django
+dps de instalar o django faça o teste :
+python 
+import django
+django.VERSION
+
+-------------+--------------------------
+
+django-admin startproject  NOME DO PROJETO
+django runserver
+python manage.py migrate
+python manage.py createsuperuser
+pip install djangorestframework
+python manage.py startapp nome da <i class="fa fa-apple" aria-hidden="true"></i>
+pip install pillow
+python manage.py makemigrations
+pip install django-cors-headers
+ng generate component members-detail
+
+
+
+
+
+
+
+-------------+---------------------------
+
+ANGULAR
+npm install -g @angular/cli
+cd pasta que vc quer 
+ng new nome_do_projeto
+ng serve
+ng generate service api
+ cd src/app/members-detail/
+ ng generate service api
+
+
+ ----
+ git init
+ git status
+ vim .gitignore
+ aperta a letra i
+ aperta esq 
+ :wq
+
+git add .
+git commit -m "First commit"
+git remote add origin https://github.com/Vinicius-Martins-Moura/AngularAndDjango.git
+git push -u origin master
+
+
+
